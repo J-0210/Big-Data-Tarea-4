@@ -15,5 +15,13 @@ db.products.insertOne({
   stock: 50
 });
 ## 2. LEER (READ)
+db.products.findOne({ product_id: "P0001" })
+
 ## 3. ACTUALIZAR (UPDATE)
+db.products.updateOne(
+  { product_id: "P0001" },
+  { $set: { stock: 250 } }
+);
+
 ## 4. ELIMINAR (DELETE)
+db.products.deleteOne({ product_id: "P2000" });
