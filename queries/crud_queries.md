@@ -4,7 +4,7 @@ Este archivo contiene los ejemplos de las consultas CRUD utilizadas en la colecc
 
 ---
 
-## 1. Crear (INSERT)
+## 1. Crear (CREAT)
 
 ```js
 db.products.insertOne({
@@ -14,3 +14,6 @@ db.products.insertOne({
   price: 19.99,
   stock: 50
 });
+## 2. LEER (READ)
+## 3. ACTUALIZAR (UPDATE)
+## 4. ELIMINAR (DELETE)
